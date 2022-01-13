@@ -5,10 +5,41 @@ a{
     text-decoration: none;
     color: rgb(0, 204, 255);
 }
+thead{
+    background-color: rgb(0, 225, 255);
+    color: white;
+    font-size: bold;
+}
+
 .heading{
     height: 80px;
     background-color: rgb(0, 140, 255);
 }
+.photo img{
+    height: 80%;
+}
+.subtitle{
+    color: rgb(165, 165, 165);
+}
+
+.conteiner{
+    height: 300px;
+}
+
+.description-img{
+    font-size: 10px;
+}
+
+.underlined{
+    background-color: yellow;
+}
+
+.photo-final{
+    height: 150px;
+    width: 150px;
+    color: white;
+}
+
 #pattern{
     height: 100%;
     background-image: url("../img/pattern.png");
@@ -20,13 +51,13 @@ a{
     width: 100px;
     
 }
-.photo img{
-    height: 100%;
-}
-.subtitle{
-    color: rgb(165, 165, 165);
-}
 
-.conteiner{
-    height: 250px;
+#photo-monitor{
+    background-image: url(../img/monitor.jpg);
 }
+#photo-graph{
+    background-image: url(../img/graph.jpg);
+}
+/* .photo-final img{
+    width: 100%;
+} */
