@@ -20,7 +20,13 @@ a{
     width: 100px;
     
 }
+.photo img{
+    height: 100%;
+}
 .subtitle{
     color: rgb(165, 165, 165);
 }
 
+.conteiner{
+    height: 250px;
+}
