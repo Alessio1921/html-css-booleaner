@@ -5,12 +5,15 @@ a{
     text-decoration: none;
     color: rgb(0, 204, 255);
 }
+table{
+    border-collapse:collapse;
+    background-color: rgb(64, 192, 224);
+}
 thead{
-    background-color: rgb(0, 225, 255);
+    background-color: rgb(0, 140, 255);
     color: white;
     font-size: bold;
 }
-
 .heading{
     height: 80px;
     background-color: rgb(0, 140, 255);
@@ -34,6 +37,9 @@ thead{
     background-color: yellow;
 }
 
+.colon{
+    width: 200px;
+}
 .photo-final{
     height: 150px;
     width: 150px;
@@ -58,6 +64,7 @@ thead{
 #photo-graph{
     background-image: url(../img/graph.jpg);
 }
-/* .photo-final img{
-    width: 100%;
-} */
+
+#white-table{
+    background-color: white;
+}
